@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        color: #334155;
+        background-color: #ffffff;
+    }
+}
+
+/* Authentic SiapSchool Brand Palette */
+.text-teal-brand {
+    color: #007481;
+}
+
+.bg-teal-brand {
+    background-color: #007481;
+}
+
+.border-teal-brand {
+    border-color: #007481;
+}
+
+.hover-bg-teal-brand:hover {
+    background-color: #005f6a;
+}
+
+/* Clean UI Utilities */
+.clean-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 1.25rem;
+    transition: all 0.3s ease;
+}
+
+.clean-card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 10px 30px -10px rgba(0, 116, 129, 0.1);
+}

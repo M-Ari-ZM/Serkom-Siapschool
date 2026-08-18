@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - {{ $setting->app_name ?? 'SiapSchool' }}</title>
+    <meta name="description" content="Pelajari lebih lanjut tentang {{ $setting->app_name ?? 'SiapSchool' }}, platform manajemen pendidikan digital end-to-end berbasis ERP, Cloud, dan SaaS untuk lembaga pendidikan di Indonesia.">
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body x-data="{ showDemoModal: false }"
+      :class="{ 'overflow-hidden': showDemoModal }"
+      class="bg-white text-gray-800 font-sans antialiased">
+
+    <style>[x-cloak]{display:none!important;}</style>
+
+    {{-- Navbar (reuse komponen yang sama) --}}
+    <x-landing.navbar :setting="$setting" />
+
+    {{-- Breadcrumb --}}
+    <x-landing.breadcrumb title="Tentang Kami" />
+
+
+    {{-- Sections --}}
+    <x-landing.about-hero />
+    <x-landing.about-overview :setting="$setting" />
+    <x-landing.about-values />
+    <x-landing.about-team />
+    <x-landing.about-cta :setting="$setting" />
+
+    {{-- Demo Modal (digunakan oleh navbar CTA) --}}
+    <x-landing.demo-modal :errors="$errors" />
+
+    {{-- Footer --}}
+    <x-landing.footer :setting="$setting" />
+
+</body>
+</html>
