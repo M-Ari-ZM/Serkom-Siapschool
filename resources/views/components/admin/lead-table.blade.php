@@ -23,6 +23,7 @@
                     <th class="px-6 py-3">Sekolah</th>
                     <th class="px-6 py-3">Kontak</th>
                     <th class="px-6 py-3">Pesan</th>
+                    <th class="px-6 py-3">Aksi</th>
                 </tr>
             </thead>
             <tbody class="divide-y divide-gray-100">
@@ -85,6 +86,19 @@
                             @else
                                 <span class="text-gray-300">—</span>
                             @endif
+                        </td>
+
+                        {{-- Aksi --}}
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <form action="{{ route('admin.leads.destroy', $lead) }}" method="POST" class="inline-block"
+                                onsubmit="return confirm('Apakah Anda yakin ingin menghapus data pendaftar ini?');">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit"
+                                    class="px-2.5 py-1 text-xs font-medium text-red-600 bg-red-50 hover:bg-red-100 rounded-md transition-colors">
+                                    Hapus
+                                </button>
+                            </form>
                         </td>
                     </tr>
                 @empty

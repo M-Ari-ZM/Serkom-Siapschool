@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ asset('assets/siapschool-icon.png') }}" type="image/png">
     <title>Tentang Kami - {{ $setting->app_name ?? 'SiapSchool' }}</title>
     <meta name="description" content="Pelajari lebih lanjut tentang {{ $setting->app_name ?? 'SiapSchool' }}, platform manajemen pendidikan digital end-to-end berbasis ERP, Cloud, dan SaaS untuk lembaga pendidikan di Indonesia.">
 

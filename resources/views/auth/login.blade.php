@@ -3,7 +3,7 @@
         {{-- Header --}}
         <div class="space-y-1">
             <h1 class="text-2xl font-bold text-gray-800">Selamat Datang Kembali</h1>
-            <p class="text-sm text-gray-500">Masuk ke portal administrator sekolah Anda.</p>
+            <p class="text-sm text-gray-500">Masuk ke portal administrator Siapschool.</p>
         </div>
 
         {{-- Session Status --}}
@@ -114,12 +114,12 @@
         </form>
 
         {{-- Register Link --}}
-        <div class="pt-4 border-t border-gray-100 text-center text-sm text-gray-500">
+        {{-- <div class="pt-4 border-t border-gray-100 text-center text-sm text-gray-500">
             Belum punya akun?
             <a href="{{ route('register') }}" class="font-semibold hover:underline" style="color: #007481;">
                 Daftar di sini
             </a>
-        </div>
+        </div> --}}
     </div>
 
     @if ($isThrottled)

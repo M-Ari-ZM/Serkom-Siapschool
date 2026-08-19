@@ -22,6 +22,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::middleware(['auth', 'verified'])->prefix('admin')->name('admin.')->group(function () {
+    Route::delete('leads/{lead}', [DashboardController::class, 'destroy'])->name('leads.destroy');
     Route::resource('features', FeatureController::class)->except(['show']);
     Route::resource('faqs', FaqController::class)->except(['show']);
     Route::get('settings', [AppSettingController::class, 'edit'])->name('settings.edit');

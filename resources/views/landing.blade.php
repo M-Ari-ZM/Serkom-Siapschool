@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ asset('assets/siapschool-icon.png') }}" type="image/png">
     <title>{{ $setting->app_name ?? 'SiapSchool' }} - Platform Aplikasi & Sistem Informasi Sekolah</title>
     <meta name="description" content="Platform aplikasi pendidikan terpadu yang mempermudah pengelolaan sekolah, KBM, absensi, penilaian, raport, dan komunikasi antar civitas sekolah.">
 
