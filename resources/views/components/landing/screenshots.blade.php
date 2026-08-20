@@ -1,7 +1,7 @@
 @props(['screenshots'])
 
 @if(!empty($screenshots))
-<section class="py-16 bg-gray-50">
+<section id="screenshot" class="py-16 bg-gray-50">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center">
         <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-3">Tampilan Aplikasi</h2>
         <p class="text-gray-500 text-sm md:text-base max-w-xl mx-auto">Antarmuka yang modern dan intuitif, dirancang untuk kemudahan penggunaan di berbagai perangkat.</p>

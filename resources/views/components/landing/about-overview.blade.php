@@ -4,10 +4,6 @@
 
         {{-- Section Header --}}
         <div class="text-center mb-14">
-            <span class="inline-block text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4"
-                  style="background-color: #e0f5f7; color: #007481;">
-                Perjalanan Kami
-            </span>
             <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
                 Menghadirkan Solusi Pendidikan<br class="hidden md:block"> Digital Terbaik
             </h2>

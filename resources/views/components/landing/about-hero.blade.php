@@ -11,10 +11,6 @@
 
             {{-- Text Side --}}
             <div class="flex-1 text-center lg:text-left">
-                <span class="inline-block text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-5"
-                      style="background-color: #e0f5f7; color: #007481;">
-                    Tentang Kami
-                </span>
 
                 <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
                     Platform Manajemen<br>

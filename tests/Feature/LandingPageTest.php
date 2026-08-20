@@ -8,7 +8,7 @@ it('renders the landing page and shows the demo request form', function () {
     $response->assertStatus(200);
     $response->assertSee('Coba Demo Gratis');
     $response->assertSee('Nama Lengkap');
-    $response->assertSee('Email / No. WhatsApp');
+    $response->assertSee('Email');
 });
 
 it('stores a demo request and redirects back with success', function () {

@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\AppSettingController;
 use App\Http\Controllers\Admin\FeatureController;
 use App\Http\Controllers\Admin\FaqController;
-use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Route;
 

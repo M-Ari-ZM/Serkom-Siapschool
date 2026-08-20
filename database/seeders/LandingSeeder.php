@@ -16,7 +16,7 @@ class LandingSeeder extends Seeder
             'play_store_url' => 'https://play.google.com/store/apps/details?id=siapschool.os.webview',
             'app_store_url' => 'https://apps.apple.com/id/app/siap-school/id6737998600',
             'whatsapp_cs' => '08123456789',
-            'copyright_text' => 'Copyright © 2026 siapschool.com. All Rights Reserved.'
+            'contact_email' => 'info@siapschool.com',
         ]);
 
         // 2. Data Fitur / Modul

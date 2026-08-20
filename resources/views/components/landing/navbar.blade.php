@@ -11,9 +11,6 @@
             <!-- Desktop Nav -->
             <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-600">
                 <a href="{{ route('home') }}" class="hover:text-teal-600 transition-colors">Home</a>
-                <a href="{{ route('home') }}#advantages" class="hover:text-teal-600 transition-colors">Keunggulan</a>
-                <a href="{{ route('home') }}#features" class="hover:text-teal-600 transition-colors">Fitur</a>
-                <a href="{{ route('home') }}#faq" class="hover:text-teal-600 transition-colors">FAQ</a>
                 <a href="{{ route('about') }}" class="hover:text-teal-600 transition-colors">Tentang Kami</a>
             </div>
 
@@ -78,20 +75,6 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
                 Tentang Kami
-            </a>
-            <a href="{{ route('home') }}#advantages" @click="mobileOpen = false"
-                class="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-teal-600 transition-all">
-                <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>
-                </svg>
-                Fitur
-            </a>
-            <a href="{{ route('home') }}#faq" @click="mobileOpen = false"
-                class="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-teal-600 transition-all">
-                <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-                FAQ
             </a>
 
             <div class="pt-3 mt-3 border-t border-gray-100 flex flex-col gap-2">

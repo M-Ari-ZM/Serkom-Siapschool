@@ -46,6 +46,7 @@
     <x-landing.screenshots :screenshots="$screenshots" />
     <x-landing.advantages />
     <x-landing.features :features="$features" />
+    <x-landing.download-app :setting="$setting" />
     <x-landing.faq :faqs="$faqs" />
     <x-landing.cta />
 

@@ -24,7 +24,7 @@ class AppSettingController extends Controller
             'play_store_url'  => 'nullable|url|max:255',
             'app_store_url'   => 'nullable|url|max:255',
             'whatsapp_cs'     => 'nullable|string|max:50',
-            'copyright_text'  => 'nullable|string|max:255',
+            'contact_email'   => 'nullable|email|max:255',
             'screenshots.*'   => 'nullable|image|mimes:jpg,jpeg,png,webp|max:3072',
         ]);
 
@@ -38,7 +38,7 @@ class AppSettingController extends Controller
             'play_store_url' => $validated['play_store_url'] ?? null,
             'app_store_url'  => $validated['app_store_url'] ?? null,
             'whatsapp_cs'    => $validated['whatsapp_cs'] ?? null,
-            'copyright_text' => $validated['copyright_text'] ?? null,
+            'contact_email'  => $validated['contact_email'] ?? null,
         ]);
 
         // Handle new screenshot uploads
