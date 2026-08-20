@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [LandingController::class, 'index'])->name('home');
 Route::get('/about', [LandingController::class, 'about'])->name('about');
+Route::get('/about-dev', [LandingController::class, 'about_dev'])->name('about-dev');
 
 Route::post('/demo-gratis', [LandingController::class, 'store'])->name('lead.store');
 

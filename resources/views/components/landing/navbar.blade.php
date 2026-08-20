@@ -12,6 +12,7 @@
             <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-600">
                 <a href="{{ route('home') }}" class="hover:text-teal-600 transition-colors">Home</a>
                 <a href="{{ route('about') }}" class="hover:text-teal-600 transition-colors">Tentang Kami</a>
+                <a href="{{ route('about-dev') }}" class="hover:text-teal-600 transition-colors">Tentang Pemrogram</a>
             </div>
 
             <!-- Desktop CTA -->
