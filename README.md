@@ -27,7 +27,7 @@ Aplikasi manajemen sekolah yang dibangun dengan Laravel 12, Tailwind CSS, dan Al
 ![Dashboard](https://github.com/M-Ari-ZM/Serkom-Siapschool/blob/aee0a59d7b8b38b7a838c1f220fb4724eb26121a/public/assets/screenshot/Screenshot%202026-08-20%20092417.png)
 
 ### Manajemen keunggulan, fitur, dan tampilan aplikasi
-![Manajemen](https://via.placeholder.com/800x500?text=Laporan+Nilai+Screenshot)
+![Manajemen](https://github.com/M-Ari-ZM/Serkom-Siapschool/blob/af2ce0031fa47bc2ab9ef6b59cec76cbb6c7a8e9/public/assets/screenshot/Screenshot%202026-08-20%20092700.png)
 
 ## Requirements
 
