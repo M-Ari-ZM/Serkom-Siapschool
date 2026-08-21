@@ -8,10 +8,9 @@ Aplikasi manajemen sekolah yang dibangun dengan Laravel 12, Tailwind CSS, dan Al
 
 ### Fitur Utama
 
-- 📚 Manajemen data siswa dan guru
-- 🏫 Kelola kelas dan jadwal pelajaran
-- 📊 Laporan akademik dan nilai
-- 👥 Sistem manajemen pengguna dengan role-based access
+- 🏫 Kelola fitur, FAQ, dan tampilan aplikasi
+- 📊 Laporan permintaan demo pengguna
+- 👥 Sistem manajemen dashboard administrasi
 - 🎨 UI responsif dengan Tailwind CSS
 - ⚡ Interaktif dengan Alpine JS
 
@@ -177,10 +176,6 @@ Kontribusi sangat diterima! Untuk berkontribusi:
 3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push ke branch (`git push origin feature/AmazingFeature`)
 5. Buat Pull Request
-
-## License
-
-Project ini dilisensikan di bawah [MIT license](https://opensource.org/licenses/MIT) - lihat file [LICENSE](LICENSE) untuk detail.
 
 ## Kontak
 
