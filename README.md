@@ -29,9 +29,6 @@ Aplikasi manajemen sekolah yang dibangun dengan Laravel 12, Tailwind CSS, dan Al
 ### Manajemen keunggulan, fitur, dan tampilan aplikasi
 ![Manajemen](https://via.placeholder.com/800x500?text=Laporan+Nilai+Screenshot)
 
-### Responsive Design
-![Mobile View](https://via.placeholder.com/400x600?text=Mobile+Responsive)
-
 ## Requirements
 
 - PHP >= 8.2
