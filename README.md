@@ -17,30 +17,20 @@ Aplikasi manajemen sekolah yang dibangun dengan Laravel 12, Tailwind CSS, dan Al
 
 ## Screenshots
 
-### Dashboard
-![Dashboard](https://via.placeholder.com/800x500?text=Dashboard+Screenshot)
+### Home
+![Home](https://via.placeholder.com/800x500?text=Dashboard+Screenshot)
 
-Dashboard utama dengan overview data sekolah, statistik siswa, dan akses cepat ke fitur-fitur penting.
+### Tentang kami
+![Tentang kami](https://via.placeholder.com/800x500?text=Kelas+&+Jadwal+Screenshot)
 
-### Manajemen Siswa
-![Manajemen Siswa](https://via.placeholder.com/800x500?text=Manajemen+Siswa+Screenshot)
+### Dashboard admin
+![Dashboard](https://via.placeholder.com/800x500?text=Laporan+Nilai+Screenshot)
 
-Interface untuk mengelola data siswa dengan search, filter, dan export functionality.
-
-### Manajemen Kelas & Jadwal
-![Kelas & Jadwal](https://via.placeholder.com/800x500?text=Kelas+&+Jadwal+Screenshot)
-
-Kelola kelas dan jadwal pelajaran dengan drag-drop functionality untuk kemudahan pengguna.
-
-### Laporan Nilai
-![Laporan Nilai](https://via.placeholder.com/800x500?text=Laporan+Nilai+Screenshot)
-
-Sistem pelaporan akademik yang komprehensif dengan visualisasi data menggunakan chart.
+### Manajemen keunggulan, fitur, dan tampilan aplikasi
+![Manajemen](https://via.placeholder.com/800x500?text=Laporan+Nilai+Screenshot)
 
 ### Responsive Design
 ![Mobile View](https://via.placeholder.com/400x600?text=Mobile+Responsive)
-
-Aplikasi fully responsive dan dapat diakses dari berbagai device (desktop, tablet, mobile).
 
 ## Requirements
 
